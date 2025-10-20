@@ -1,114 +1,33 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-    <title>HTML 5</title>
-
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etiquetas HTML</title>
 </head>
+<body class="pagina-etiquetas">
 
-<body>
-    <header>
-        <h1>Ejemplo de un página Web</h1>
-    </header>
+  <section class="seccion-etiquetas">
+    <h1 class="titulo">Etiquetas de Formato en HTML</h1>
+    <p>Estas etiquetas permiten dar significado o estilo al texto:</p>
 
-    <nav class="menu" style="background-color: rgb(230, 241, 197); padding: 10px;">
-    <ul>
-        <li><a href="#lb_head">head</a></li>
-        <li><a href="#lb_nav">nav</a></li>
-        <li><a href="#lb_section">section</a></li>
-        <li><a href="#lb_article">article</a></li>
-        <li><a href="#lb_footer">footer</a></li>
-        <li><a href="#lb_aside">aside</a></li>
-    </ul>
-    </nav>
+    <div class="ejemplos-formato">
+      <p><strong>Texto en negrita (semántico)</strong></p>
+      <p><em>Texto en cursiva (semántico)</em></p>
+      <p><u>Texto subrayado</u></p>
+      <p><mark>Texto resaltado</mark></p>
+      <p><s>Texto tachado</s></p>
+      <p><small>Texto más pequeño</small></p>
+      <p>Fórmula química: H<sub>2</sub>O</p>
+      <p>Expresión matemática: E=mc<sup>2</sup></p>
+      <p>Cita en línea: <q>El conocimiento es poder</q></p>
+    </div>
 
-    <br>
+    <div class="botones-navegacion">
+      <a href="Encabezado.html" target="_parent"><button class="btn-volver">Ir a Encabezados</button></a>
+      <a href="Inicio.html" target="_parent"><button class="btn-volver">Volver al Inicio</button></a>
+    </div>
+  </section>
 
-    <main> 
-        <section style="background-color: rgb(87, 115, 115); padding: 10px;">
-            <h2 style="color: white;">Tipos de etiquetas en html usadas en esta página web</h2>
-            <p></p>
-
-            <article id="lb_head" style="background-color: rgb(140, 235, 135); padding: 10px;">
-                <h3>head:</h3>
-                <p>
-                    Generalmente contiene información que necesitamos que se cargue antes 
-                    de iniciar la página.
-                </p>
-            </article>
-
-            <br>
-
-            <article id="lb_nav" style="background-color: rgb(224, 237, 164); padding: 10px;">
-                <h3>nav:</h3>
-                <p>
-                    Proporciona enlaces de navegación para mejorar la experiencia de usuario.
-                </p>
-            </article>
-
-            <br>
-
-            <article id="lb_section" style="background-color: skyblue; padding: 10px;">
-                <h3>section:</h3>
-                <p>
-                    Representa una sección dentro de la página, diferenciandola de otras. 
-                    Puede agrupar contenido relacionado como un conjunto de artículos.
-                </p>
-            </article>
-
-            <br>
-            
-            <article id="lb_article" style="background-color: rgb(168, 136, 200); padding: 10px;">
-                <h3>article:</h3>
-                <p>
-                    Puede almacenar un contenido el cual puede ser reutilizado o distribuido.
-                </p>
-            </article>
-
-            <br>
-
-            <article id="lb_footer" style="background-color: rgb(128, 199, 128); padding: 10px;">
-                <h3>footer:</h3>
-                <p>Es una etiqueta que define el pie de página de un sitio web o de una sección de contenido.</p>
-            </article>  
-
-            <br>
-
-            <aside id="lb_aside" style="background-color: rgb(206, 159, 112); padding: 10px;" >
-                <h3>aside:</h3>
-                <p>
-                    Con él se puede agregar información adicional al
-                    contenido principal. El contenido que se use dentro 
-                    de está etiqueta se puede considerar como no esencial para el usuario
-                </p>
-            </aside> 
-            <br>
-        </section>
-    </main> 
-
-    <br>
-
-
-    <aside style="background-color: rgb(0, 63, 139); padding: 10px; color: rgb(255, 255, 255);">
-        <h3>Información adicional</h3>
-        <p>
-            Este es un ejemplo del uso de la etiqueta 'aside' 
-            donde se podría encontrar más información sobre el 
-            tema que se hable en el artículo.
-        </p>
-        <ul>
-            <li><a href="#">Enlaces relacionados</a></li>
-            <li><a href="#">Recursos adicionales</a></li>
-        </ul>
-    </aside>
-
-    <br>
-
-
-    <footer class="sidebar" id="sidebar-1" style="background-color: lightgray; padding: 20px;" title="Pie de página">
-        Gracias por su atención!
-    </footer>
 </body>
-
 </html>

@@ -2,16 +2,29 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Página de Inicio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Estándares Web</title>
 </head>
-<body>
+<body class="pagina-principal">
 
-  <h1>Bienvenido a mi sitio web</h1>
-  <p>Desde aquí puedes ir a las otras secciones:</p>
+  <header class="encabezado-main">
+    <h1>Investigación: Estándares Web</h1>
+    <p>Por: <strong>Josué Sáenz</strong> — Programación Web</p>
+  </header>
 
-  <!-- Enlaces a las otras páginas -->
-  <a href="Encabezado.html">Ir a la página de encabezado</a><br>
-  <a href="Etiquetas.html">Ir a la página de etiquetas</a>
+  <nav class="menu-navegacion">
+    <button class="btn-menu" onclick="document.getElementById('visor').src='Encabezado.html'">Encabezados</button>
+    <button class="btn-menu" onclick="document.getElementById('visor').src='Etiquetas.html'">Etiquetas</button>
+  </nav>
+
+  <main class="contenedor">
+    <iframe id="visor" src="Encabezado.html" width="100%" height="600" style="border:none;"></iframe>
+  </main>
+
+  <footer class="pie">
+    <hr>
+    <p><small>UPS Cuenca — Investigación de Estándares Web — 2025</small></p>
+  </footer>
 
 </body>
 </html>
